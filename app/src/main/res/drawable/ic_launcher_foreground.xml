@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Glow -->
+    <path android:pathData="M54,54m-32,0a32,32 0 1,0 64,0a32,32 0 1,0 -64,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="32"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#552F80ED" />
+                <item android:offset="0.7" android:color="#222F80ED" />
+                <item android:offset="1.0" android:color="#002F80ED" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Main Sphere Core -->
+    <path android:pathData="M54,54m-22,0a22,22 0 1,0 44,0a22,22 0 1,0 -44,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="36"
+                android:endX="66"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#68B5FF" />
+                <item android:offset="0.4" android:color="#2F80ED" />
+                <item android:offset="1.0" android:color="#1856C9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Left Eye Dot -->
+    <path
+        android:pathData="M48,47m-2.2,0a2.2,4.2 0 1,0 4.4,0a2.2,4.2 0 1,0 -4.4,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Right Eye Dot -->
+    <path
+        android:pathData="M57,47m-2.2,0a2.2,4.2 0 1,0 4.4,0a2.2,4.2 0 1,0 -4.4,0"
+        android:fillColor="#FFFFFF" />
+
+</vector>

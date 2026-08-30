@@ -1,0 +1,6 @@
+{
+  "name": "Kimi AI",
+  "description": "High-fidelity mobile AI assistant featuring chat, immersive voice mode, model selection, attachments bottom sheet, and side navigation drawer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
